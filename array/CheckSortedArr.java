@@ -3,7 +3,7 @@ public class CheckSortedArr {
         if(i>=arr.length-1) {
             return true;
         }
-        if(arr[i]<arr[i+1]){
+        if(arr[i]<=arr[i+1]){
            return checksort(arr,i+1);
         }
         return false;
